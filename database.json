@@ -1,0 +1,79 @@
+{
+    "animals": [
+        {
+            "id": 1,
+            "name": "Doodles",
+            "breed": "Poodle",
+            "customerId": 1,
+            "locationId": 2
+        },
+        {
+            "id": 2,
+            "name": "Buster",
+            "breed": "Multipoo",
+            "customerId": 3,
+            "locationId": 1
+        },
+        {
+            "id": 3,
+            "name": "Max",
+            "breed": "Goldenpoo",
+            "customerId": 2,
+            "locationId": 2
+        },
+        {
+            "id": 4,
+            "name": "Kaos",
+            "breed": "Terrier Mix",
+            "customerId": 5,
+            "locationId": 1
+        },
+        {
+            "id": 5,
+            "name": "Meeko",
+            "breed": "Mini Poodle",
+            "customerId": 4,
+            "locationId": 2
+        }
+    ],
+    "customers": [
+        {
+            "id": 1,
+            "name": "Hannah Hall",
+            "address": "7002 Chestnut Ct"
+        },
+        {
+            "id": 2,
+            "name": "Stacey Burns",
+            "address": "5000 Liberty Way"
+        },
+        {
+            "id": 3,
+            "name": "Mike Harding",
+            "address": "Highway 70 South"
+        },
+        {
+            "id": 4,
+            "name": "Emily Dauer",
+            "address": "5862 Dickerson Pike"
+        },
+        {
+            "id": 5,
+            "name": "Kyle Smith",
+            "address": "55 South Street"
+        }
+    ],
+    "employees": [],
+    "locations": [
+        {
+            "id": 1,
+            "name": "Nashville North",
+            "address": "8422 Johnson Pike"
+        },
+        {
+            "id": 2,
+            "name": "Nashville South",
+            "address": "209 Emory Drive"
+        }
+    ]
+}
