@@ -40,30 +40,66 @@
         {
             "id": 1,
             "name": "Hannah Hall",
-            "address": "7002 Chestnut Ct"
+            "address": "7002 Chestnut Ct",
+            "pet": {
+                "id": 1
+            }
         },
         {
             "id": 2,
             "name": "Stacey Burns",
-            "address": "5000 Liberty Way"
+            "address": "5000 Liberty Way",
+            "pet": {
+                "id": 3
+            }
         },
         {
             "id": 3,
             "name": "Mike Harding",
-            "address": "Highway 70 South"
+            "address": "Highway 70 South",
+            "pet": {
+                "id": 2
+            }
         },
         {
             "id": 4,
             "name": "Emily Dauer",
-            "address": "5862 Dickerson Pike"
+            "address": "5862 Dickerson Pike",
+            "pet": {
+                "id": 5
+            }
         },
         {
             "id": 5,
             "name": "Kyle Smith",
-            "address": "55 South Street"
+            "address": "55 South Street",
+            "pet": {
+                "id": 4
+            }
         }
     ],
-    "employees": [],
+    "employees": [
+        {
+            "id": 1,
+            "name": "Jeremy Bakker",
+            "locationId": 2
+        },
+        {
+            "id": 2,
+            "name": "Josh Roads",
+            "locationId": 1
+        },
+        {
+            "id": 3,
+            "name": "Kristin Worth",
+            "locationId": 2
+        },
+        {
+            "id": 4,
+            "name": "Kyle Sanders",
+            "locationId": 1
+        }
+    ],
     "locations": [
         {
             "id": 1,
