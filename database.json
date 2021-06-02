@@ -1,105 +1,127 @@
 {
-    "animals": [
-        {
-            "id": 1,
-            "name": "Doodles",
-            "breed": "Poodle",
-            "customerId": 1,
-            "locationId": 2
-        },
-        {
-            "id": 2,
-            "name": "Buster",
-            "breed": "Multipoo",
-            "customerId": 3,
-            "locationId": 1
-        },
-        {
-            "id": 3,
-            "name": "Max",
-            "breed": "Goldenpoo",
-            "customerId": 2,
-            "locationId": 2
-        },
-        {
-            "id": 4,
-            "name": "Kaos",
-            "breed": "Terrier Mix",
-            "customerId": 5,
-            "locationId": 1
-        },
-        {
-            "id": 5,
-            "name": "Meeko",
-            "breed": "Mini Poodle",
-            "customerId": 4,
-            "locationId": 2
-        }
-    ],
-    "customers": [
-        {
-            "id": 1,
-            "name": "Hannah Hall",
-            "address": "7002 Chestnut Ct",
-            "animalId": 1
-        },
-        {
-            "id": 2,
-            "name": "Stacey Burns",
-            "address": "5000 Liberty Way",
-            "animalId": 3
-        },
-        {
-            "id": 3,
-            "name": "Mike Harding",
-            "address": "Highway 70 South",
-            "animalId": 2
-        },
-        {
-            "id": 4,
-            "name": "Emily Dauer",
-            "address": "5862 Dickerson Pike",
-            "animalId": 5
-        },
-        {
-            "id": 5,
-            "name": "Kyle Smith",
-            "address": "55 South Street",
-            "animalId": 4
-        }
-    ],
-    "employees": [
-        {
-            "id": 1,
-            "name": "Jeremy Bakker",
-            "locationId": 2
-        },
-        {
-            "id": 2,
-            "name": "Josh Roads",
-            "locationId": 1
-        },
-        {
-            "id": 3,
-            "name": "Kristin Worth",
-            "locationId": 2
-        },
-        {
-            "id": 4,
-            "name": "Kyle Sanders",
-            "locationId": 1
-        }
-    ],
-    "locations": [
-        {
-            "id": 1,
-            "name": "Nashville North",
-            "address": "8422 Johnson Pike"
-        },
-        {
-            "id": 2,
-            "name": "Nashville South",
-            "address": "209 Emory Drive"
-        }
-    ]
+  "animals": [
+    {
+      "id": 1,
+      "name": "Doodles",
+      "breed": "Poodle",
+      "customerId": 1,
+      "locationId": 2
+    },
+    {
+      "id": 2,
+      "name": "Buster",
+      "breed": "Multipoo",
+      "customerId": 3,
+      "locationId": 1
+    },
+    {
+      "id": 3,
+      "name": "Max",
+      "breed": "Goldenpoo",
+      "customerId": 2,
+      "locationId": 2
+    },
+    {
+      "id": 4,
+      "name": "Kaos",
+      "breed": "Terrier Mix",
+      "customerId": 5,
+      "locationId": 1
+    },
+    {
+      "id": 5,
+      "name": "Meeko",
+      "breed": "Mini Poodle",
+      "customerId": 4,
+      "locationId": 2
+    },
+    {
+      "name": "Zulu ",
+      "breed": "Bull Mastif",
+      "locationId": 2,
+      "customerId": 2,
+      "id": 6
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Hannah Hall",
+      "address": "7002 Chestnut Ct",
+      "email": "hannah@hannahhall.com",
+      "animalId": 1
+    },
+    {
+      "id": 2,
+      "name": "Stacey Burns",
+      "address": "5000 Liberty Way",
+      "email": "stacy@stacyburns.com",
+      "animalId": 3
+    },
+    {
+      "id": 3,
+      "name": "Mike Harding",
+      "address": "Highway 70 South",
+      "email": "mike@mikeharding.com",
+      "animalId": 2
+    },
+    {
+      "id": 4,
+      "name": "Emily Dauer",
+      "address": "5862 Dickerson Pike",
+      "email": "emily@emilydauer.com",
+      "animalId": 5
+    },
+    {
+      "id": 5,
+      "name": "Kyle Smith",
+      "address": "55 South Street",
+      "email": "kyle@kylesmith.com",
+      "animalId": 4
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Jeremy Bakker",
+      "locationId": 2
+    },
+    {
+      "id": 2,
+      "name": "Josh Roads",
+      "locationId": 1
+    },
+    {
+      "id": 3,
+      "name": "Kristin Worth",
+      "locationId": 2
+    },
+    {
+      "id": 4,
+      "name": "Kyle Sanders",
+      "locationId": 1
+    },
+    {
+      "name": "Samantha Johnson",
+      "locationId": 3,
+      "id": 5
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Nashville North",
+      "address": "8422 Johnson Pike"
+    },
+    {
+      "id": 2,
+      "name": "Nashville South",
+      "address": "209 Emory Drive"
+    },
+    {
+      "name": "Nashville West",
+      "address": "Highway 70th South",
+      "id": 3
+    }
+  ]
 }
