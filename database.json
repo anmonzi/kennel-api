@@ -4,8 +4,8 @@
       "id": 1,
       "name": "Doodles",
       "breed": "Poodle",
-      "customerId": 1,
-      "locationId": 2
+      "locationId": 3,
+      "customerId": 1
     },
     {
       "id": 2,
@@ -18,15 +18,15 @@
       "id": 3,
       "name": "Max",
       "breed": "Goldenpoo",
-      "customerId": 2,
-      "locationId": 2
+      "locationId": 1,
+      "customerId": 4
     },
     {
       "id": 4,
-      "name": "Kaos",
-      "breed": "Terrier Mix",
-      "customerId": 5,
-      "locationId": 1
+      "name": "Charlie",
+      "breed": "Bull Mastif",
+      "locationId": 1,
+      "customerId": 5
     },
     {
       "id": 5,
@@ -34,13 +34,6 @@
       "breed": "Mini Poodle",
       "customerId": 4,
       "locationId": 2
-    },
-    {
-      "name": "Zulu ",
-      "breed": "Bull Mastif",
-      "locationId": 2,
-      "customerId": 2,
-      "id": 6
     }
   ],
   "customers": [
@@ -82,14 +75,9 @@
   ],
   "employees": [
     {
-      "id": 1,
-      "name": "Jeremy Bakker",
-      "locationId": 2
-    },
-    {
       "id": 2,
       "name": "Josh Roads",
-      "locationId": 1
+      "locationId": 3
     },
     {
       "id": 3,
@@ -105,18 +93,33 @@
       "name": "Samantha Johnson",
       "locationId": 3,
       "id": 5
+    },
+    {
+      "name": "Justin Smith",
+      "locationId": 3,
+      "id": 6
+    },
+    {
+      "id": 7,
+      "name": "Susan Walters",
+      "locationId": 1
+    },
+    {
+      "name": "Ashton  Monzi",
+      "locationId": 2,
+      "id": 8
     }
   ],
   "locations": [
     {
       "id": 1,
       "name": "Nashville North",
-      "address": "8422 Johnson Pike"
+      "address": "8485 Johnson Pike"
     },
     {
       "id": 2,
       "name": "Nashville South",
-      "address": "209 Emory Drive"
+      "address": "209 Henry Street"
     },
     {
       "name": "Nashville West",
